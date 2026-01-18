@@ -3,7 +3,7 @@ cask "workset" do
   name "workset"
   desc "Go CLI for multi-repo workspaces with linked worktrees"
   homepage "https://workset.dev"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "workset" do
   on_macos do
     on_intel do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_darwin_amd64.tar.gz"
-      sha256 "217e9262a9cdde9baf35101e4d16f7d6e07d2c28b2077cb16005a5431f161628"
+      sha256 "8843c2360105537db9f2f0cbf069197f0b59fe9006e445fb49b8f087c5177920"
     end
     on_arm do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_darwin_arm64.tar.gz"
-      sha256 "eef7c85003bb7cf015b4cb67636848693036b2cd91be79673774da85c041017f"
+      sha256 "b6c9ded26fea7523547f3f5972a95a1d413c101f575904e135342a1b5c074187"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_linux_amd64.tar.gz"
-      sha256 "01e6481d7293a5a64b2f66a4e50cba92d1da9055b6a3994071e3ef303042fb1d"
+      sha256 "83324d3ba36747f5ae59aa22513358800044d0faf968f74836a755416640c60c"
     end
     on_arm do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_linux_arm64.tar.gz"
-      sha256 "37f299aba0f639284e44f23aa3c6db07968b248bfd5edde77b667ce0ba627c2f"
+      sha256 "75138e13e31ae76c6a023c85d21e568f94509474cfd8b91fb7d25b8455619b61"
     end
   end
 
