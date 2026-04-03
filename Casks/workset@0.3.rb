@@ -5,22 +5,22 @@ cask "workset@0.3" do
   on_macos do
     on_intel do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_darwin_amd64.tar.gz"
-      sha256 "cde8af7ba1e93c2bcb4f060818e86294639213cd95f6ca26e8b8556646efba0b"
+      sha256 "ff4f1e87b13aedda038bdcc42ac2097dcc999b8614b71533e017c1fc31e5b9a9"
     end
     on_arm do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_darwin_arm64.tar.gz"
-      sha256 "f9ffc3d5f07d2a94e7e044509d860d4006f9bb3133c7cfc5f8a38cef45b9a689"
+      sha256 "4db2efa98a22cf22817493ec30cf382210030e65103238403ab5027608adc45e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_linux_amd64.tar.gz"
-      sha256 "870f11dc201905d89326994b1ae7e3b5dd7ff2da2e2578ea14aee15e55d7c5ef"
+      sha256 "c0b0d69eb2543da7ecbf2615089ba8c5f4bf2b8cd6da45ff8a3fbbfe83011573"
     end
     on_arm do
       url "https://github.com/strantalis/workset/releases/download/v#{version}/workset_#{version}_linux_arm64.tar.gz"
-      sha256 "397fc0c1a57ba98c91d31d2e426d6cd4d6207785432a63bd105fe6393d6127b4"
+      sha256 "5870d57c612e681cadde65c727f338fe37d0a5d1235330ef2fa516b748ff80ba"
     end
   end
 
